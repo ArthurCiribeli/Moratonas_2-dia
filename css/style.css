@@ -5,12 +5,15 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .menu-option{
     display: flex;
-    align-items: center;
-    padding-top: 14px;
-    padding-left: 15px;
 }
 .menu-option p{
     font-style: normal;
@@ -19,9 +22,9 @@ header{
     line-height: 19px;
     padding-left: 19px;
 }
-.search-config{
-    padding-top: 14px;
+.header__icons{
     padding-right: 14px;
+    padding-left: 12px;
 }
 .category-list{
     width: 350px;
@@ -196,3 +199,111 @@ footer p{
     line-height: 15px;
     color: rgba(47, 47, 47, 0.5);
 }
+.button-play{
+    width: 51px;
+    height: 51px;
+    background: #4285F4;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.playlist-musics{
+    background-color: #F2F2F2;
+    width: 100%;  
+}
+.playlist-musics__capa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 48px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.playlist-musics__album__name{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 16px;
+}
+.playlist-music_info{
+    padding-bottom: 36px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+}
+.playlist-music_info-divisão{
+    display: flex;
+}
+.playlist-musics__lista{
+    padding-bottom: 95px;
+
+}
+.playlist-musics__lista-músicas{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.playlist-musics__lista-músicas{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+}
+.playlist-musics__lista-músicas:hover{
+    background-color: #F2F2F2;
+}
+.playlist-musics__lista-músicas:active{
+    background-color: #326AC6;
+}
+.playlist-musics__name{
+    padding-left: 14px;
+}
+.divisão-flex{
+    display: flex;
+}
+.contagem{
+    color: rgba(47, 47, 47, 0.6);
+    padding-right: 22px;
+}
+.divisão-flex img{
+    padding-right: 23px;
+}
+.music-player{
+    background-color: #1F1F1F;
+    height: 76px;
+    border-radius: 9px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.music-player__names{
+    padding-left: 22px;
+}
+.music-player__name-music{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+}
+.music-player__name-artist{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.music-player__button{
+    padding-right: 24px;
+}
+.music-player__button :nth-child(2){
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
